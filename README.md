@@ -11,5 +11,17 @@ Details on how it is intended to be used and integrated is available in the wiki
 # Code Base
 The core Lightrail framework is built in C++ and has been verified on Windows and multiple Linux distributions to build/work properly. It also includes C# bindings for use and testing on Windows. The majority of the development takes place on Windows and then debugging on other platforms. The included Windows solution can be opened and built (newer version of Visual Studio) with no additional dependencies.
 
+## Projects and Dependencies
+Below lists the projects in to the codebase and the order in which they are to be referred/built.
+### Core Framework (C++ Lightrail framework)
+1. XTools: generic C++ utilities
+2. XLibrary: tool library for use in cross-platform, low-level applications
+3. Lightrail: core C++ library
+4. Lightrail console: simple console application for using/testing the C++ framework
+### C# Interop & Tools:
+1. LightrailNet: interop library for Lightrail
+2. LightrailNetTest: test classes for the framework
+3. LightrailDiagnostics: WinForms applications for sending/receiving messages and monitoring network activity
+
 # License
 The code is provided under the MIT license.
