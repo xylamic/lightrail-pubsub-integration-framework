@@ -6,7 +6,7 @@ Lightrail is a publish/subscribe framework targeted at high-performance applicat
 
 Publish/subscribe applications communicate via "Terminals" that are registered to publish, subscribe, request, or respond to information. Those channels can be secured with a security key (symmetric) as needed.
 
-Details on how it is intended to be used and integrated is available in the wiki.
+Details on how it is intended to be used and integrated is available in the [Lightrail Wiki](https://github.com/xylamic/lightrail-pubsub-integration-framework/wiki)
 
 # Code Base
 The core Lightrail framework is built in C++ and has been verified on Windows and multiple Linux distributions to build/work properly. It also includes C# bindings for use and testing on Windows. The majority of the development takes place on Windows and then debugging on other platforms. The included Windows solution can be opened and built (newer version of Visual Studio) with no additional dependencies.
