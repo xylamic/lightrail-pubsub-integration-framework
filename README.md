@@ -24,4 +24,6 @@ Below lists the projects in to the codebase and the order in which they are to b
 3. LightrailDiagnostics: WinForms applications for sending/receiving messages and monitoring network activity
 
 # License
-The code is provided under the MIT license. All Xylasoft assets, names, and materials are proprietary.
+The code is provided under the MIT license.
+
+Any Xylasoft assets, names, and materials are proprietary.
